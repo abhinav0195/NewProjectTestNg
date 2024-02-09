@@ -13,7 +13,7 @@ WebDriver driver;
          driver = new ChromeDriver();
 
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-
+        driver.manage().window().maximize();
         WebElement ele = driver.findElement(By.xpath("//fieldset/label[@for='radio1']/input[@name='radioButton']"));
 
         ele.click();
