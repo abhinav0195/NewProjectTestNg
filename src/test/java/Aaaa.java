@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+
 
 public class Aaaa {
 
@@ -13,9 +13,7 @@ public class Aaaa {
         for (int s: n){
             for (int i = 0; i<n.length; i++){
 
-            if (s< n[i]){
 
-            }
 
                 }
 
