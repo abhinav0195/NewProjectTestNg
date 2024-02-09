@@ -1,6 +1,6 @@
 package org.example;
 
-import net.bytebuddy.build.Plugin;
+
 import org.testng.annotations.*;
 
 public class Square {
